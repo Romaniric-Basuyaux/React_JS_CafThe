@@ -1,0 +1,14 @@
+h2{
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.product-liste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.section-product {
+    min-height: 100vh;
+}

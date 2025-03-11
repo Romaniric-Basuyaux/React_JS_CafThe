@@ -1,0 +1,30 @@
+.section-login{
+    min-height: 100vh;
+}
+
+.mail{
+    padding-top: 250px;
+    text-align: center;
+}
+
+.password{
+    text-align: center;
+}
+
+.se-connecter{
+    font-size: 24px;
+    text-align: center;
+}
+.connect{
+    font-family: cursive;
+}
+
+
+.account{
+    padding-top: 30px;
+    text-align: center;
+}
+
+p.new-account{
+    font-family: "Bookman Old Style";
+}
