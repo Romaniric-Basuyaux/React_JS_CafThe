@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+    background-color: #e9e0bb;
+    background-repeat: no-repeat;
+    background-size: max(1490px);
+    background-position: center;
+}
+
+.titre{
+    text-align: center;
+    font-size: 95px;
+    font-family: "Dancing Script";
+}
+
+p{
+font-family: "Dancing Script";
+    font-size: 24px;
+}
+
+p.prix{
+    font-family: cursive;
+}
+
+.recherche{
+    margin-top: 25px;
+    font-size: 24px;
+    text-align: center;
+    height: 150px;
+}
+
+.search{
+    font-size: 26px;
+}
+
+.input{
+    height: 25px;
+}
