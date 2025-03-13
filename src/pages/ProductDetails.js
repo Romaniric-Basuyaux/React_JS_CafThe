@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import "../styles/ProductDetails.css";
-import cafeBresil from "../img/cafe_bresil.jpg";
+
 
 function ProductDetails() {
     const { id } = useParams();
@@ -24,9 +24,13 @@ function ProductDetails() {
         return <p>Chargement en cours...</p>; // Affichage en cas de chargement
     }
 
+    const productImage = `/img/${produit.img_produit || 'placeholder.jpg'}`;
+
     return (
         <div className="produit-container">
-            <img className={"imgB"} src={cafeBresil} alt="Café du Brésil" width={"300px"} />
+            <div className={"picture"}>
+                <img src={productImage} alt={produit.nom} />
+            </div>
             <div className="details_produit">
                 <p className="designation_produit">{produit.designation_produit}</p>
                 <p className="description">{produit.description_produit}</p>

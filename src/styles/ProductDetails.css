@@ -20,10 +20,13 @@ p.quantite{
 
 p.description{
     font-family: cursive;
-    text-align: justify;
+    line-break: normal;
+    /*line height = hauteur de ligne */
+    line-height: 35px;
 }
 
 .imgB{
+    width: 30%;
     display: flex;
     padding: 24px;
     flex-direction: column;
@@ -42,6 +45,8 @@ p.description{
 .produit-container{
     display: flex;
     margin: 15px;
+    height: 68vh;
+    max-width: 100%;
 }
 
 
