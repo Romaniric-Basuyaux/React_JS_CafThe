@@ -27,7 +27,7 @@ function Nav(props) {
                 <div className="Header">
                     <div className="Navbar">
                         <div className={"logo"}>
-                            <Link className={"Cafthé"} to="/" >CafThé.</Link>
+                            <Link className={"Cafthé"} to="/" > <div className={"border"}>CafThé.</div></Link>
                         </div>
 
                     {/*    <div className={"recherche"}>*/}
@@ -38,7 +38,7 @@ function Nav(props) {
                     {/*</div>*/}
 
                         <div className={"direction"}>
-                            <ul>
+                            <ul className={"list_btn"}>
                                 <button><li><Link className={"home"} to="/Home">Accueil</Link></li></button>
                                 <button><li><Link className={"cafe"} to="/Café">Café</Link></li></button>
                                 <button> <li><Link className={"the"} to="/Thé">Thé</Link></li></button>

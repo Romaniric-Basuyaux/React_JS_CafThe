@@ -20,33 +20,42 @@ li {
 
 
 .logo{
-    padding-top: 25px;
     display: flex;
     font-size: 30px;
     font-family: "Dancing Script";
+    border: solid black 1px;
+    width: 142px;
 }
 
 button{
     color: #050505;
-    margin: 10px;
-    height: 45px;
+    margin: 9px;
     border-radius: 20px;
-    font-family: "Dancing Script";
+    font-family: "alef";
 }
 
 .Cafthé{
     font-size: 50px;
     color: black;
     text-decoration: none;
+    border: solid white 4px;
 }
 
+.border{
+    padding-bottom: 6px;
+    border: solid black 1px;
+    width: 133px;
+}
+
+
+
 .home{
+
     color: black;
     text-decoration: none;
 }
 
 .cafe{
-    margin-right: 10px;
     color: black;
     text-decoration: none;
 }

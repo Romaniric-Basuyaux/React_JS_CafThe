@@ -2,7 +2,7 @@ import React, {useContext, useState} from 'react';
 import "../styles/Login.css"
 import axios from "axios";
 import {AuthContext} from "../context/AuthContext";
-import {useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 
 
@@ -76,8 +76,10 @@ function Login(props) {
                 <button className={"connect"} type="submit">Se connecter</button>
             </div>
 
-                <div className={"account"}>
-                    <p className={"new-account"}>Créez un nouveau compte </p>
+                <div className="account">
+                    <p className="new-account">
+                        <Link to="/New_user">Créez un nouveau compte</Link>
+                    </p>
                 </div>
             </form>
 

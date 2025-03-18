@@ -52,6 +52,8 @@ function Café(props) {
     return (
         <section className={"section-cafe"}>
             <h2>Liste de nos Cafés</h2>
+
+
             <div className="product-liste">
                 {produits.map((produit) => (
                     <ProductCard key={produit.id_produit} produit={produit} />

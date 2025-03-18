@@ -10,7 +10,8 @@ import Thé from "./pages/Thé";
 import Accessoires from "./pages/Accessoires";
 import Shop from "./pages/Shop";
 import GlobalStyles from "./GlobalSysteme";
-
+import New_user from "./pages/New_user"
+import Filter from "../src/components/Filter";
 
 function App(props) {
     const App = () => {
@@ -38,6 +39,7 @@ function App(props) {
                         <Route path="Café" element={<Café />}  />
                         <Route path="Thé" element={<Thé />}  />
                         <Route path="Accessoires" element={<Accessoires />}  />
+                        <Route path={"New_user"} element={<New_user/>} />
                         <Route path="Shop" element={<Shop />} />
                     </Route>
                 </Routes>

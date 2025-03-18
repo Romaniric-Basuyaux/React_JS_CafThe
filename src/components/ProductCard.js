@@ -4,7 +4,7 @@ import "../styles/ProductCard.css";
 
 
 function ProductCard({produit}) {
-    const productImage = `/img/${produit.image_produit}`;
+    const productImage = produit.image_produit ? `/img/${produit.image_produit}` : "/img/cafe_kenya.jpg";
     console.log(produit)
     console.log("Nom de l'image :", produit.image_produit);
     console.log("Chemin généré :", productImage);

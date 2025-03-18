@@ -7,6 +7,7 @@ body{
 }
 
 .titre{
+    padding: 85px;
     text-align: center;
     font-size: 95px;
     font-family: "Dancing Script";
@@ -21,17 +22,12 @@ p.prix{
     font-family: cursive;
 }
 
-.recherche{
-    margin-top: 25px;
-    font-size: 24px;
-    text-align: center;
-    height: 150px;
-}
-
-.search{
-    font-size: 26px;
+.rechercher{
+    font-family: Alef;
+    font-size: 18px;
 }
 
 .input{
     height: 25px;
+    width: 180px;
 }
