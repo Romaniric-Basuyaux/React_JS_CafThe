@@ -1,5 +1,4 @@
 h2{
-    padding-top: 95px;
     font-size: 38px;
     text-align: center;
     font-family: cursive;
@@ -7,4 +6,8 @@ h2{
 
 .section-cafe{
         min-height: 100vh;
+}
+
+.produits{
+    display: flex;
 }

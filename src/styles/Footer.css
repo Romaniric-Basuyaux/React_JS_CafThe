@@ -1,5 +1,11 @@
 .footer{
-    text-align: center;
-    height: 100px;
+    display: flex;
+    height: 150px;
     background-color: #908a6e;
+}
+
+.li{
+    display: flex;
+    text-align: center;
+    align-items: center;
 }

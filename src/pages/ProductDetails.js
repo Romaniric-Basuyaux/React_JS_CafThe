@@ -24,12 +24,12 @@ function ProductDetails() {
         return <p>Chargement en cours...</p>; // Affichage en cas de chargement
     }
 
-    const productImage = `/img/${produit.img_produit || 'placeholder.jpg'}`;
+    const productImage = `/img/${produit.image_produit || 'placeholder.jpg'}`;
 
     return (
         <div className="produit-container">
             <div className={"picture"}>
-                <img src={productImage} alt={produit.nom} />
+                <img src={`/${produit.image_produit}`} alt={produit.nom} />
             </div>
             <div className="details_produit">
                 <p className="designation_produit">{produit.designation_produit}</p>

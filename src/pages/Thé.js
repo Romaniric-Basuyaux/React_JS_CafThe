@@ -4,6 +4,8 @@ import axios from "axios";
 import Skeleton from "react-loading-skeleton";
 import ProductCard from "../components/ProductCard";
 import "../styles/the.css"
+import Filter from '../components/Filter';
+
 
 
 function Thé(props) {

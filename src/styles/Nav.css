@@ -50,7 +50,6 @@ button{
 
 
 .home{
-
     color: black;
     text-decoration: none;
 }
@@ -84,3 +83,9 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
     width: 35px;
 }
 
+.recherche{
+    padding-right: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

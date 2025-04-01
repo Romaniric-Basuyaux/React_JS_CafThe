@@ -4,28 +4,29 @@ import axios from "axios";
 import Skeleton from "react-loading-skeleton";
 import ProductCard from "../components/ProductCard";
 import "../styles/cafe.css";
+import Filter from '../components/Filter';
 
 
 
 
 function Café(props) {
     const [produits,setProduits] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
 
 
-    useEffect(() => {
-        const fetchProduits = async () => {
-            try{
-                const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/cafe`);
-                setProduits(response.data);
-            } catch (error){
-                console.error("Erreur de chargements des produits", error)
-            } finally {
-                setIsLoading(false)/*On arrete d'afficher le chargement (squelettes)*/
-            }
-        };
-        void fetchProduits();
-    }, []);
+    // useEffect(() => {
+    //     const fetchProduits = async () => {
+    //         try{
+    //             const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/cafe`);
+    //             setProduits(response.data);
+    //         } catch (error){
+    //             console.error("Erreur de chargements des produits", error)
+    //         } finally {
+    //             setIsLoading(false)/*On arrete d'afficher le chargement (squelettes)*/
+    //         }
+    //     };
+    //     void fetchProduits();
+    // }, []);
 
     if (isLoading){
         return (
@@ -51,14 +52,9 @@ function Café(props) {
 
     return (
         <section className={"section-cafe"}>
-            <h2>Liste de nos Cafés</h2>
+            <h2>Liste de nos Produits</h2>
+            <Filter/>
 
-
-            <div className="product-liste">
-                {produits.map((produit) => (
-                    <ProductCard key={produit.id_produit} produit={produit} />
-                ))}
-            </div>
         </section>
     );
 

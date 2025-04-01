@@ -30,19 +30,18 @@ function Nav(props) {
                             <Link className={"Cafthé"} to="/" > <div className={"border"}>CafThé.</div></Link>
                         </div>
 
-                    {/*    <div className={"recherche"}>*/}
-                    {/*    <label htmlFor="site-search">Saisissez votre recherche </label>*/}
-                    {/*    <input className={"input"} type="search" id="site-search" name="q"/>*/}
 
-                    {/*    <button className={"search"}>Rechercher</button>*/}
-                    {/*</div>*/}
 
                         <div className={"direction"}>
                             <ul className={"list_btn"}>
+                                <div className={"recherche"}>
+                                <label htmlFor="site-search">Saisissez votre recherche </label>
+                                <input className={"input"} type="search" id="site-search" name="q"/>
+
+                                <button className={"search"}>Rechercher</button>
+                            </div>
                                 <button><li><Link className={"home"} to="/Home">Accueil</Link></li></button>
-                                <button><li><Link className={"cafe"} to="/Café">Café</Link></li></button>
-                                <button> <li><Link className={"the"} to="/Thé">Thé</Link></li></button>
-                                <button><li><Link className={"access"} to="/Accessoires">Accessoire</Link></li></button>
+                                <button><li><Link className={"cafe"} to="/Café">Produits</Link></li></button>
                                 <Link className={"shop"} to="/shop"> <FontAwesomeIcon icon={faCartShopping} /></Link>
                                 <li className={"login"}>
                                     {isAuthenticated ? (

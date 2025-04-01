@@ -49,7 +49,7 @@ function Login(props) {
 
     return (
         <section className={"section-login"}>
-            <form onSubmit={handleSummit}>
+            <form className={"log_in"} onSubmit={handleSummit}>
                 <ul>
                     <li className={"mail"}>
                         <label htmlFor="mail">E-mail&nbsp;:</label><br/>

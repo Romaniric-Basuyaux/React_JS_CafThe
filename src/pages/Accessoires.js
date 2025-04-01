@@ -4,6 +4,9 @@ import axios from "axios";
 import Skeleton from "react-loading-skeleton";
 import ProductCard from "../components/ProductCard";
 import "../styles/access.css"
+import Filter from '../components/Filter';
+
+
 
 function Accessoires(props) {
     const [produits,setProduits] = useState([]);

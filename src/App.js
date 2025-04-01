@@ -11,7 +11,11 @@ import Accessoires from "./pages/Accessoires";
 import Shop from "./pages/Shop";
 import GlobalStyles from "./GlobalSysteme";
 import New_user from "./pages/New_user"
-import Filter from "../src/components/Filter";
+
+
+function Produit() {
+    return null;
+}
 
 function App(props) {
     const App = () => {

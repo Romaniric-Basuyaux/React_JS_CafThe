@@ -1,9 +1,26 @@
 .section-login{
-    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.log_in {
+    min-width: 500px;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 12px rgba(95, 72, 47, 0.1);
+
+    border-top: 4px solid #8b5a2b; /* Bordure couleur café */
+
 }
 
 .mail{
-    padding-top: 250px;
     text-align: center;
 }
 
@@ -28,3 +45,6 @@
 p.new-account{
     font-family: "Bookman Old Style";
 }
+
+
+
