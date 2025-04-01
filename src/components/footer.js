@@ -6,17 +6,17 @@ function Footer(props) {
     return (
         <div className={"footer"}>
             <ul className={"li"}>
-                <li>
-                    <p>Mentions Légales</p>
+                <li className={"mention_legal"}>
+                    <p className={"mentions"}>Mentions Légales</p>
                 </li>
                 <li>
-                    <p></p>RGPD
+                    <p className={"rgpd"}>RGPD</p>
                 </li>
                 <li>
-                    CGU
+                    <p className={"cgu"}>CGU</p>
                 </li>
                 <li>
-                    CGV
+                    <p className={"cgv"}>CGV</p>
                 </li>
             </ul>
         </div>
