@@ -1,0 +1,49 @@
+.objet{
+    text-align: left;
+    padding: 20px;
+}
+
+.p4{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.paiement{
+    text-align: left;
+    padding: 20px;
+}
+
+.p5{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.livraison{
+    text-align: left;
+    padding: 20px;
+}
+
+.p6{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.droit{
+    text-align: left;
+    padding: 20px;
+}
+
+.p7{
+    font-family: cursive;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .objet, .paiement, .livraison, .droit {
+        text-align: center;
+        padding: 10px;
+    }
+    .p4, .p5, .p6, .p7 {
+        font-size: 16px;
+    }
+}

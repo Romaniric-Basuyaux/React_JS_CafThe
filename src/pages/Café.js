@@ -14,19 +14,19 @@ function Café(props) {
     const [isLoading, setIsLoading] = useState(false);
 
 
-    // useEffect(() => {
-    //     const fetchProduits = async () => {
-    //         try{
-    //             const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/cafe`);
-    //             setProduits(response.data);
-    //         } catch (error){
-    //             console.error("Erreur de chargements des produits", error)
-    //         } finally {
-    //             setIsLoading(false)/*On arrete d'afficher le chargement (squelettes)*/
-    //         }
-    //     };
-    //     void fetchProduits();
-    // }, []);
+     // useEffect(() => {
+     //    const fetchProduits = async () => {
+     //        try{
+     //            const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/cafe`);
+     //            setProduits(response.data);
+     //         } catch (error){
+     //             console.error("Erreur de chargements des produits", error)
+     //         } finally {
+     //             setIsLoading(false)/*On arrete d'afficher le chargement (squelettes)*/
+     //         }
+     //     };
+     //     void fetchProduits();
+     // }, []);
 
     if (isLoading){
         return (

@@ -84,7 +84,7 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 }
 
 .recherche{
-    padding-right: 400px;
+    padding-right: 300px;
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -1,0 +1,39 @@
+.editeur{
+    text-align: left;
+    padding: 20px;
+}
+
+.info{
+    padding: 20px;
+    font-family: cursive;
+}
+
+.Hebergement{
+    text-align: left;
+    padding: 20px;
+}
+
+.info_heberge{
+    padding: 20px;
+    font-family: cursive;
+}
+
+.Propriete_intel{
+    text-align: left;
+    padding: 20px;
+}
+
+.Propriete{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.Protection_données{
+    text-align: left;
+    padding: 20px;
+}
+
+.Données{
+    font-family: cursive;
+    padding: 20px;
+}

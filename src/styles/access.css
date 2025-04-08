@@ -9,3 +9,9 @@
 .section-access{
     min-height: 100vh;
 }
+
+@media (max-width: 768px) {
+    .section-access {
+        padding: 20px;
+    }
+}

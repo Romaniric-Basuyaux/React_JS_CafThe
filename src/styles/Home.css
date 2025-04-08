@@ -31,3 +31,18 @@ p.prix{
     height: 25px;
     width: 180px;
 }
+
+
+@media (max-width: 768px) {
+    .titre {
+        font-size: 50px;
+        padding: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .input {
+        width: 100%;
+        max-width: 250px;
+    }
+}

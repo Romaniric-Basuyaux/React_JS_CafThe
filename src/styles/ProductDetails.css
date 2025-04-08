@@ -23,6 +23,7 @@ p.description{
     line-break: normal;
     /*line height = hauteur de ligne */
     line-height: 35px;
+    margin: 20px;
 }
 
 .imgB{
@@ -59,4 +60,9 @@ p.description{
 .designation_produit{
     font-size: 46px;
     padding-bottom: 15px;
+    padding: 20px;
+}
+
+.img{
+    width: 300px;
 }

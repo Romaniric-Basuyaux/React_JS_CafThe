@@ -11,3 +11,16 @@ h2{
 .produits{
     display: flex;
 }
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+    }
+    .section-cafe {
+        padding: 20px;
+    }
+    .produits {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

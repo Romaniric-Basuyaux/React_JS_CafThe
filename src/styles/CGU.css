@@ -1,0 +1,39 @@
+.Accept{
+    text-align: left;
+    padding: 20px;
+}
+
+.Conditions{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.Site{
+    text-align: left;
+    padding: 20px;
+}
+
+.p2{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.resp{
+    text-align: left;
+    padding: 20px;
+}
+
+.p3{
+    font-family: cursive;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .Accept, .Site, .resp {
+        text-align: center;
+        padding: 10px;
+    }
+    .Conditions, .p2, .p3 {
+        font-size: 16px;
+    }
+}

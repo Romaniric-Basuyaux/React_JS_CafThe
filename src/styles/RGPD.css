@@ -1,0 +1,33 @@
+.RG-PD{
+    padding: 25px;
+}
+
+.collecte h2{
+    text-align: left;
+    padding: 20px;
+}
+
+.collecte p {
+    font-family: cursive;
+    padding: 20px;
+}
+
+.utilisation h2{
+    text-align: left;
+    padding: 20px;
+}
+
+.utilisation p{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.Droits h2{
+    text-align: left;
+    padding: 20px;
+}
+
+.Droits p{
+    font-family: cursive;
+    padding: 20px;
+}
